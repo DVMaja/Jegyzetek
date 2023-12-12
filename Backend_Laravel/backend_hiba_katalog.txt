@@ -1,0 +1,17 @@
+I
+$table->foreignId('user_id')->references('users')->on('id'); 
+a users-t és az id-t felcserélve írtam
+Így kell kinéznie
+$table->foreignId('user_id')->references('id')->on('users');
+
+
+II
+php artisan make:factory BlogFactory --model=Blog
+ A blogot mindig át kell írni annak a modellnek a nevére, amelyiknek factoryt szerertnénk csinálni
+
+III
+Status: 500 Internal Server Error
+post nál ezt a hibát kapom
+
+IV
+delete nem mükszik még

@@ -1,0 +1,11 @@
+Tesztelés
+Jóindulatú felhasználás mellet a cél hogy bizonyítsuk a program helyes működését
+- mi történik ha 
+
+Tesztelési dokumentáció
+-teszteset neve
+-elvárt működés
+-tényleges működés
+
+:q
+

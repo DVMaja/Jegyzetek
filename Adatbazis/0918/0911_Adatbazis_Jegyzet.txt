@@ -1,0 +1,43 @@
+(élet 3.0, neumann jános a ...völgyből jött)
+könyvesbolt felhasználói funkciói
+
+- könyvek kezelése
+	- szerző
+- kiadványok kezelése
+- beszerzés (egyszerű / összetett)
+- készletmozgás (raktárból eladótérbe vagy vissza)
+- selejtezés
+- eladás (nyugta adással)... // (ha nyugtaa automatikusan csökkenti a db számot)
+- müszakok Pl: 1. 2. 3. műszak
+- árak változását nyomon kell követni.
+változások aplózása, árak ütemezése // árlisták DIA 9
+- akciós árak
+	- ha valamiből kólegalább n-et veszek akkor 1 db ingyen van 
+	- valamit kapsz ingyen
+- kiadványnak va műfalya
+- milyen mélységű műfalyok (2-3 max különben recursive lesz)
+- Szerző 1 szerző többet tud írni, és 1 könyvet többen tudnak írni
+- szerzők nyilvántartása
+- Rotser.... Matematikai zsebkönyv
+- különbözö verzió/modozata lehet
+**********************************
+Milyen egyedekre van szükség	 *
+f: egyértelműen meghat 1f(x)-et  *
+legyen kulcsa a táblának	 *
+minden adat függjön tőle	 *
+
+szerzők 
+******************************************************************************
+1Normál Forma: legyen kulcs 
+ (minden tul. függ a külcstól)
+2NF: a kulcstól ne részlegesen függjön (semmi ne függjön részlegesen)				
+	Pl TANÍT(tanár, tanit, osztály)					                                       
+        	         ___________ kulcs összetett
+			De a tanár_neve sem ide való mert nem közvetlenül függ
+
+3NF: Közvetlenül
+(4-5 ös normálfoma)
+Étterem otthon
+*******************NORMÁLFORMÁK************************************************
+Patika, étterem adatbázis csináld meg
+

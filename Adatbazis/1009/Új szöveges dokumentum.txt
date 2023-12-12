@@ -1,0 +1,16 @@
+Előadás nál a cím  nem kulcs
+más kulcs kell 
+nem jó a kulcs
+nyilvántar OFF
+
+előadás hova mire kell menni
+
+ársáv minél többet vegószel annál többet spórólsz
+jegy mennyi van mennyiadtál el mennyi selejt
+vásárlás nem prioritás
+Jegy(cím, idő, ár, készlet, eladott, selejt)
+
+
+
+
+Előadás(hely, cím, idő)

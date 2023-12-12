@@ -1,0 +1,97 @@
+Comparable<T>
+MI a T 
+- a típus paraméter
+- ezt is lehet paraméterezni
+- <valami>
+	-át tudja venni az utódját
+Hogy fogják ezeket hívni
+- <> -> milyen típusok generikus tipuspok
+- generikus típusa van a Comparable -nek is
+ ha van generikus meg normál, akkor a generikust használjuk
+típus biztos lesz ez a verzió
+	- mit jelent? miért fontos
+	- mert nem object object lesz, szóval nem vehet át mást mint ami meg van adva
+	- contraveriáció
+	-C# előrébb van
+	- 
+<> generikusok ha üres
+típus paraméte bármilyen típust meg lehet neki adni
+
+Így kell használni
+ private static <T> void kiirStrTomb(String cim, T[] tomb)
+ide kell menniük, és így kell kinézni
+ezek után mindenhol a T kell használni ha azt akarjuk hogy működjön 
+pl:
+	- for (T elem : tomb)
+
+Feladat
+FEladat 
+- github readmivel -> Jatek a neve  , serilizalas, dizajn karactrer
+
+életerő: 2d6+12
+ugyesseg: d6 + 6
+szerencse: d6+6
+
+legyen neve leírása
+ArrayList<Targy> felszereles
+	  név, leírás
+	UUID
+
+felvesz(Targy)
+felvesz(Targy, int)
+
+cherri pick csak 1 committo ad hozzá
+bárhonnan bármilyen commitot egy az egyben
+
+hasznal(nev) ahol megadunk egy tárgyat
+hasznal(nev, int db) hányszor használom
+hasznal(nev, db, boolean) -> ha nincs elég akkor is levonjuk e vagy sem
+mi van ha nincs
+ha nem elég 
+
+van()
+melyik()
+2 ág main, karakter ág 
+karakter:
+- tárgyak felvétel név leírás id
+- felvétel tulterhelés, 1db vagy több
+- használat 3 tulter
+
+	1db valahány és tud úgy hogy nincs nála elegendő
+	kihuzni a listából
+
+
+
+
+
+
+
+
+
+git push origin main
+git log --oneline
+git merge agneve
+git checkout main
+git checkout agneve
+git checkout -b ujagneve
+git merge master --allow-unrelated-histories
+git remote add origin
+
+git add .
+git commit -m ""
+git commit -am ""
+
+
+*************************************************************
+Ha remote repot akarunk összekötni local repoval
+:q
+Ha a remote ba már commitoltál
+ akkor 
+git remote add origin github_linkje
+git pull
+git checkout main
+git merge master --allow-unrelated-histories
+:\ // a kilépéshez
+git push origin main
+***************************************************************
+

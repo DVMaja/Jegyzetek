@@ -1,0 +1,2 @@
+technikai tábla: TANÉV(félév, állapot)
+			____   

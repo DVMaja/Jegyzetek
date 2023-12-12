@@ -1,0 +1,68 @@
+1. Docker
+docker - composer.yml
+Dockerfile
+(host és jelszó)
+
+ALTERNATÍVE
+Xamp otthon 
+composer-t kell telepíteni
+VS code-> php intelleg
+
+az .env fájlban adatbázis
+
+https://getcomposer.org/
+https://getcomposer.org/doc/00-intro.md#installation-windows
+
+
+
+__________________________________Dogáig |
+(Node js jövőhéttől)
+
+**********************************************
+****************Órai Munka********************
+**********************************************
+1. COntroller
+2.blade-ek
+3. (C) függvények ->alam (crud)
+		  -> view
+4. útvonalak	  -> alap
+		  ->view
+
+Érdemes őket külön külön írni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************************************
+*****************************************
+*****************************************
+Backend lépései
+composer create-project laravel/laravel __________projekt neve
+composer install
+xampp indítása,
+.env.example fájl tartalmának másolása .env fájlba,
+.env módosítása, hogy a kapcsolódási paraméterek legyenek élesek (DB kapcsolódási paraméterek beállítása),
+
+php artisan serve
+php artisan make:model Nagybetűvel_ggyeszám -m
+**************************************************
+FONTOS						**
+docker ps 					**
+docker exec -it --------------- /bin/bash	**
+						**	
+cd mappa neve					**	
+						**
+composer create-project laravel/laravel		**
+**************************************************

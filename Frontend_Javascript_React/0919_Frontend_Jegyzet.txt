@@ -1,0 +1,26 @@
+A program belépési pontja a main.js
+csak akor fut le a code ha az index html teljes egészéban betöltődött $(){}
+példányosítjuk a XY osztályt
+
+MI az osztáy feladata?
+Van gy konstruktora 
+beállítja az adattagokat
+paraméterként kap
+
+osztály
+adattag
+tagfüggvény
+lista
+privát(#) publicus (adattag csak az ami elött this. van)
+végigmegyünk a listán és
+példányosítja a XY-t
+
+típus: 	lista 	
+	objektum {}
+a táblázat 1 sorát állítja elő
+beálllítottunk a html elem re egy publikus aattagot
+esemény kezelő-> valamit csinál
+#esemenyTrigger(){} -> prirvát tagfüggvény 
+	customEvent megtanulni
+A mainben ffeliratkozunk az eseményre, és valamivel elérjük 
+paraméter

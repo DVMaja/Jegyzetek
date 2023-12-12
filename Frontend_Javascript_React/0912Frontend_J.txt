@@ -1,0 +1,41 @@
+assinkrohívás
+
+callback függvény: asszinkron hívás esetén akkor fut le ha egy esemény bekövetkezett.
+
+let: he ezzel deklaárunk, akkor minden iteráxió új lesz
+
+const: nagybetűvel írjuk, 
+	-alap változók esetében nem lehet felül definiálni.
+	- tömb esetén 
+
+
+függvény kifejezés: értékül tudjuk adni egy változónak.
+	- hol használjuk: callback függvényeknél
+	- nem működik a hoisting itt.
+
+******************
+ this eseténa a : => arra az ogjektumra mutat amiben benne van
+!!!!!!!!!!!!!!!!!! this !!!!!!!!!!!!!
+******************
+
+Listákon alkalmazható függvények
+.pop 	utolsó elem eltüntete
+.push 	hozzáad a végéhez
+.shift 	első elem eltávolítása
+.unshift	hozzáad egy elemet
+.splice 	az x -ől y-ig beszúr
+.slice 		az x-től y-ig kiveszi (de tuddok új listát létrehozni vele)
+
+Rendezés/ sort
+.sort 	rendez
+
+forEach
+tomb.forEach(vlm)
+végig megy az elemeken, és azt csinálja ami meg van határozbóva
+function vlm (value, index, total){}
+
+MAP()
+új tömböt hoz léttre a forEach-csel ellentétben
+
+Osztályok:
+constructor beállít

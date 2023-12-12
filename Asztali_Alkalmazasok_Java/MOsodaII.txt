@@ -1,0 +1,5 @@
+ /*II
+    Mosoda le is tud égni, ekkor minden beadott ruha megsemmisűl! A mosoda a továbiakban nem üzemel, nem tud ruhákat bevenni
+    
+    TEchnikai spec
+    A kivett ruhákat újra be lehet koszolni, és beadni egy másik még ,működő mosodába*/

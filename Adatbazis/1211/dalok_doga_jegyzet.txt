@@ -1,0 +1,65 @@
+Adatbázis doga 
+jegyzet
+***ki volt a tagj a legrövidebb ideig a Q nevű eggyütesnek
+tagságba 2 dáum , belépés kilépés
+
+***mIlyen műfajban adta elő Z a legtöbb dalt
+TOP 1
+
+***KI hány rok dalt adott elő?
+	
+***Melyik évben adta elő a legtöbb dalt ZÉ
+
+***Adott szerep hány dal feldolgozásában fordult elő
+	skalárt ad vissza
+	különböző dalokat számolni meg
+***Adott dalnak mennyi idő elteltével készült feldolgozása
+	
+**Ki melyik eggyütesbe lépett vissza
+	belső selectel de külső paraméterbe 
+	Havingbe >1 szer szerepel
+
+***Ki hányszor adta elő a C című dal feldolgozását
+	előadaja tábla szűrök a dal 
+	
+	
+***Adott szövegírónak mi volt az utolsó dala
+	paraméteres
+	alkotja
+
+***Melyik eggyütes 
+***Adott szerep hány dl feldolgozásába fordul elő
+	
+	
+***Adott dalnak hány fős az alkotói stábja
+	
+***Ki volt a tagja a legrövidebb ideig Q eggyütesnek
+	személy ft
+	tagja összehasonlít
+	feltételhe a 2 távolsága a lehető legkisseb, de csak 1 együttesben
+
+*** Melyik évnben mit adott elő eggyütt X és Y -on?
+	dal keletkezése a dátum ami ide kell
+	
+
+***Melyik dalnak van összesen 1 fő előadója
+	dal  a fő tábla
+		
+
+***Adott producer az adott zeneszerzővel miket alkotott? //hangszerelő itt 50 51
+	//nem név alapján keresünk
+	//nem a számra keresünk rá, de a szerep megnevezése ne égesd be a a számokat
+
+
+***Adott szerep hány dal feldolgozásában fordul elő?
+	skalár lenne
+	elég lett volna a kódra szürni, és akkor nem group by
+
+
+***Ki volt a tagja a legrövidebb ideig a Q együttesnek?
+	ez egy fix lett volna
+	a datediffnek megcserélni a dátumokat
+	
+
+*** Ki hányszor adta elő a Cé című dal feldolgozását?
+	belsőből kimaradt hogy eredeti legyen

@@ -1,0 +1,7 @@
+kontroller: Modell és View összekötése
+
+controller példányosítja a M és a V
+evingerbono
+KeresztesHunor
+
+ 

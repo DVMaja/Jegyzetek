@@ -1,0 +1,5 @@
+git branch ujBranchName
+gt checkout ujBranchName
+git log --oneline
+equals
+git branch -d Maja

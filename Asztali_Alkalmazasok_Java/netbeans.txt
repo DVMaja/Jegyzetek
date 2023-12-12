@@ -1,0 +1,5 @@
+mindig csak azt menti el amin állunk 
+érdemes a source pacagen állni
+a projekten állva kommitolni kellene
+
+a ruha osztálynak absztakra kell váltania

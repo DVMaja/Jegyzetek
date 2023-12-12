@@ -1,0 +1,20 @@
+Raktár vezető:	V
+raktáros:	R
+|eladó(egybe)	E|
+|Pénztáros(egb)	P|
+
+
+Műfajoknál:
+ -legyen kix mélység mert belekavarods, 1 tábla legyen, több mélységben
+ - ha bővítés, akkor egyéb, hogy  ne legynen kuka
+ -a főműfajnak nem legyen főműfaja
+ -ha több málységű, akkor kell megszorítás
+
+SZERZI összetett kulcs
+(RÉSZLEGESEN ÁTTÉTESEN, VAGY TRANZITÍVEN FÜGG E A KULCS )
+
+Michrosoft SQL server management studio
+localhost
+SQL Server authentication
+sa
+Aa123456@

@@ -1,0 +1,13 @@
+időkorlátot napokban adjuk meg
+ennyi napon belül lehet létrehozni
+minden leírója kötelező 
+bent
+kint 
+visszahozott
+ 1 cikkből hány termék lehet raktáron
+1 terméket csak egyszer lehet eladni, vagy becserélni
+összeg egy számított mező lesz /computed field
+
+Nézetként tedd fel
+
+Adott cikkből hány visszafizetés lehetséges máig?
