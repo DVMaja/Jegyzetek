@@ -61,8 +61,12 @@ karakter:
 	kihuzni a listából
 
 
-
-
+A probléma a mozgásnál hogy ha elágazásokat használunk:
+	- akkor elöször is az egy idő után kezelhetetlen lesz
+	- nem lesz újrafelhasználható
+	- bármilyen változásnál borulhat az egész
+	- tudnunk kell hogy egy adott pillanatban pontosan hol vagyunk,
+	   és hogy onnan hova lehet tovább menni
 
 
 
@@ -76,6 +80,7 @@ git checkout agneve
 git checkout -b ujagneve
 git merge master --allow-unrelated-histories
 git remote add origin
+git commit --amend 
 
 git add .
 git commit -m ""
