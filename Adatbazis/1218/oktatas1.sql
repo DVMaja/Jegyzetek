@@ -112,3 +112,43 @@ select * from jegy
 select * from tanterv
 select * from osztaly
 select * from tanit
+
+drop table orarend
+
+create table orarend
+(
+evf tinyint,
+betu char(1),
+nap tinyint,
+ora tinyint,
+tant char(5),
+terem smallint,
+primary key (evf, betu, nap, ora),
+unique (terem, nap, ora)
+)
+
+create table terem
+(
+tszam smallint,
+ferohely smallint,
+primary key (tszam)
+
+)
+alter table tanit
+add primary key(evf, betu, tant)
+
+alter table orarend
+add foreign key (evf, betu, tant) references tanit (evf, betu, tant)
+
+alter table orarend
+add foreign key (terem) references terem(tszam)
+
+-- a tanár már fel legyen víve, 
+-- csak annyi óra legyen leütemezve amennyi 
+select * from tanit
+select * from tanar
+select * from kepes
+
+update tanit set
+ tanar=3
+ where evf=3 and betu='A' and tant='INFO'

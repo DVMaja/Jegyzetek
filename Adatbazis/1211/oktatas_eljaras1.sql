@@ -1,5 +1,7 @@
+use oktatas
 CREATE PROCEDURE tt_generalas
 	--nem lesz ennek paramétere
+
 AS
 BEGIN	
 	IF 0 = (select COUNT(*) from tanit)
@@ -36,3 +38,20 @@ BEGIN
 END
 GO
 --exec jegyadas
+
+GO
+CREATE PROCEDURE jegyadas2
+	@diak int,
+	@tant char(5),
+	@jegy tinyint
+
+AS
+BEGIN	
+	Declare @evf tinyint
+	select @evf=evf from diak where azon=@diak
+	if exists (select 1 from tanterv where evf=@evf and tant=@tant)
+		INSERT INTO jegy values(@diak, GETDATE(), @tant, @jegy)
+	else 
+		print 'NOPE'
+
+END
