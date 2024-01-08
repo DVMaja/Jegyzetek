@@ -85,10 +85,14 @@ git commit --amend
 git add .
 git commit -m ""
 git commit -am ""
-
+git push -u origin main
+-u alapértelmezett utvonalat ad meg, ha ezt beírtad, akkor az 'origin main' feleslegessé válik
+Vigyázz mert az alapértelmezett 'git push' ide fog menni
+Kis és nagybetű fontos
 
 *************************************************************
 Ha remote repot akarunk összekötni local repoval
+Ha mással dolgozol akkor hívd meg
 :q
 Ha a remote ba már commitoltál
  akkor 
@@ -97,6 +101,16 @@ git pull
 git checkout main
 git merge master --allow-unrelated-histories
 :\ // a kilépéshez
+//git add .
+git commit -m ""
+git push origin main
+
+
+
+
+
+
+
 git push origin main
 ***************************************************************
 
