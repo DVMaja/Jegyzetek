@@ -69,7 +69,10 @@ belepes date not null,
 aktiv bit,
 primary key(kod)
 )
-
+--insert into tanar values('Matek Peti', '20000101', 1)
+--insert into tanar values('Matek Anna', '19900101', 1), ('Magyar Balázs', '19900101', 1), ('Magyar Pali', '19900101', 1)
+	--, ('Infó Irén', '19990901', 1), ('Info Máté', '19900101', 1), ('Rajz Róza', '19900101', 1)
+	--, ('Angol Aladár', '19900101', 1), ('Angol Angéla', '20010101', 1)
 create table kepes
 (
 tanar int,

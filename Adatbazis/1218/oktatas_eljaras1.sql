@@ -37,28 +37,13 @@ BEGIN
 
 END
 GO
+--lefuttatni
 --exec jegyadas
 
-go
-create table jegytipus
-(
-	tip int identity(1,1),
-	elnev varchar(20) not null,
-	szorzo tinyint not null,
-	primary key(tip)
-)
-alter table jegy
-add jegytipus int
 
-alter table jegytipus
-	alter column jegy int
+--alter table jegytipus
+--add jegy int
 
-alter table jegy
-add foreign key (jegy) references jegytipus (tip)
-
-
-select * from jegy
-select * from jegytipus
 GO
 create PROCEDURE jegyadas2
 	@diak int,

@@ -38,15 +38,16 @@ primary key (evf, betu),
 foreign key (evf) references evfolyam (evf)
 )
 
-
+drop table tanit
 create table tanit
 (
-evf tinyint,
-betu char(1),
-tant char(5),
-tanar smallint
+evf tinyint not null,
+betu char(1) not null,
+tant char(5) not null,
+tanar smallint 
 -- , KK lesz neki, de a K felesleges, ha aut. töltjük fel
 )
+--exec tt_generalas
 
 
 
@@ -78,7 +79,7 @@ END
 GO
 
 
---exec tt_generalas 
+exec tt_generalas 
 
 --select * from tanit
 
@@ -118,20 +119,39 @@ foreign key (evf, betu) references osztaly (evf, betu)
 
 create table jegy
 (
-diak int not null,
+diak int not null, 
 mikor datetime not null,
 tant char(5) not null,
-jegy tinyint not null,
+jegytipus int,
 -- jegytipus not null,
 foreign key (diak) references diak(azon)
 -- a tantárgyra nem kellene hivatk. mert ellenõrzés kell
 )
 
+go
+create table jegytipus
+(
+	tip int identity(1,1),
+	elnev varchar(20) not null,
+	szorzo tinyint not null,
+	primary key(tip)
+)
+
+alter table jegy
+add jegytipus int
+
+alter table jegy
+add foreign key (jegytipus) references jegytipus (tip)
+
+select * from jegy
+select * from jegytipus
 -- pl.  ez hibás lenne: insert into jegy values (101, getdate(), 'MAT3', 4)
 -- delete from jegy
+
 
 select * from jegy
 
 -- hiányzik az órarend és hiányzás tábla
 -- ld. EK diagram
 -- és akkor kell 1 eljárás a hiányzás felvitelére is...
+exec jegyadas 100, 'MAT3', 4, 2
