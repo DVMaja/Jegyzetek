@@ -290,13 +290,34 @@ begin
 end
  
 
- exec kedv_felv 'Maja', 'mogyorós ét', 'Milka', 'csokoládé', 5
- exec kedv_felv 'Maja', 'fehér', 'milka', 'csoki', 1
- exec kedv_felv 'Zsolt', 'tramini', 'Varga', 'bor', 5
- exec kedv_felv 'Kati', 'fehér', '---', 'bor', 1
-
-
-
+exec kedv_felv 'Maja', 'mogyorós ét', 'Milka', 'csokoládé', 5;
+exec kedv_felv 'Maja', 'fehér', 'milka', 'csokoládé', 1;
+exec kedv_felv 'Zsolt', 'tramini', 'Varga', 'bor', 5;
+exec kedv_felv 'Kati', 'fehér', '---', 'bor', 1;
+exec kedv_felv 'Niki', 'fantazy', 'KönyvMolyKépzõ', 'könyv', 5;
+exec kedv_felv 'Niki', 'cukor', 'diana', 'édesség', 1;
+exec kedv_felv 'Ricsi', 'Savanyú', 'Haribo', 'Gumicukor', 5;
+exec kedv_felv 'Ricsi', 'Ponty', '---', 'hal', 1;
+exec kedv_felv 'Kornél','natur','Milka','csokoládé',5;
+exec kedv_felv 'Kornél','vörös','---','bor',1;
+exec kedv_felv 'Hunor', 'autó', 'Lego', 'játék', 5;
+exec kedv_felv 'Hunor', 'orchidea', 'kék', 'virág', 1;
+exec kedv_felv 'Leila', 'gumicukor', 'Haribo', 'édesség', 5;
+exec kedv_felv 'Leila', 'társasjáték', 'Monopoly', 'játék', 1;
+exec kedv_felv 'Márton', 'Star Wars', 'Lucasfilm ', 'film', 5
+exec kedv_felv 'Márton', 'csipõs', 'Lays', 'chips', 1
+exec kedv_felv 'Bence', 'piros', 'Ferrari', 'auto', 5
+exec kedv_felv 'Bence', 'fehér', 'Lada', 'auto', 1
+exec kedv_felv 'Alexandra', 'fehér', 'Grand Tokaj', 'bor', 5
+exec kedv_felv 'Alexandra', 'bourbon', '---', 'whiskey', 1
+exec kedv_felv 'Asztrik', 'Fekete', '---', 'csokoládé', 4
+exec kedv_felv 'Asztrik', 'Epres', 'Milka', 'csokoládé', 1
+exec kedv_felv 'Valentin', 'Sajtos', 'Lays', 'chips', 5
+exec kedv_felv 'Valentin', 'Tej', 'Milka', 'csokoládé', 1
+exec kedv_felv 'Zoe', 'narancsos csoki', 'Lindt', 'csokoládé', 5
+exec kedv_felv 'Zoe', 'gyömbéres tea', 'Pickwick', 'tea', 1
+exec kedv_felv 'Bono', 'Mogyorós', 'Milka', 'csokoládé', 5
+exec kedv_felv 'Bono', 'Tulipán', 'Fehér', 'virág', 1
 
 
 end
