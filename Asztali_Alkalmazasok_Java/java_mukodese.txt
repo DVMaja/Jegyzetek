@@ -1,0 +1,17 @@
+	build
+.java ----> .class
+		byteCode
+
+JDK
+	JRE
+		JVM	 gépi kód
+	win	MAc
+
+parancssor
+java -version
+(A rendszer ...)
+
+
+MIchrosoft:
+- Bármilyen nyelven írod a kódot egy köztes nyelvre fog lefordulni
+- 
