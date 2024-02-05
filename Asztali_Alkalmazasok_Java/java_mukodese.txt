@@ -15,3 +15,31 @@ java -version
 MIchrosoft:
 - Bármilyen nyelven írod a kódot egy köztes nyelvre fog lefordulni
 - 
+
+
+*********************************************
+gépi kód mi jellemző
+byte kode
+futtatas convenció consolos parancs
+fordítás 
+
+DOLGOZAT help
+https://www.jtechlog.hu/artifacts/jkk.pdf
+https://okt.inf.szte.hu/prog1/gyakorlat/gyakorlat/java_elso_lepesek/#forditas-futtatas
+https://tudasbazis.sulinet.hu/hu/informatika/informatika/informatika-9-12-evfolyam/az-elso-program-elkeszitese-megjegyzesek-mentes-forditas-futtatas-program-megnyitasa-a-hattertarrol/forditas-futtatas-hibakereses
+https://users.iit.uni-miskolc.hu/~vargae/Segedlet/ElekT_ProgAlapfogalmak.pdf
+
+:: methodus referencia
+
+
+belső osztály 
+
+
+Mit lehet csinálni ha getter seterként műkszik
+-->Interface
+
+
+VIZSGA
+modell külön legyen
+de MVC nem kell majd a vizsgára
+Collection
