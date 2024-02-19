@@ -1,0 +1,37 @@
+*********Hasznos Lekérdezések****************
+
+1. Adott felhasználó mey termékeket vásárolta meg eddig. (Mikor mit mennyit mennyiért) 
+	-> ezt a bejelentkezett felhasználó és az admin láthatja
+2. Egy adott termékből mely színek voltak a legkelendőek az elmúlt évben?
+
+3. Egy adott termékből mely kiszerelések voltak a legkelendöbbek?
+
+4. Adott termék mely hónapban volt a legkelendőbb az elmúlt évben
+
+5.A top 3 legkelendőbb termék az elmúlt hónapban.
+
+6. Adott regisztrált felhasználónak mely növénykategóriák reklámozhatók az eddigi rendelései alapján?
+	-> adjon vissza konkrét terméket(ket).
+
+7. Aktuális átlagár kiszámítása a beszerzési ár alapján, termékekre lebontva
+	, tartalmazza a beszerzési árat, a jelenlegi eladási árat
+
+
+
+A(z) ___ évi kiadások összege hónapra lebontva.
+
+Az idei kiadások összege havi bontásban
+
+Átlagosan hány százalékkal változtak meg a termékárak az év elejéhez képest?
+
+
+*****Beépítendő megszorítások****************
+
+- egyediség (kulcsok)
+- hivatkozások (külső kulcsok)
+- árak, készlet, új ár és a lefoglalt mennyiség nem negatív egész számok
+- végösszegek a nyugtákon számított mezők
+- egy termék aktuális árának megváltozásakor a régi ár elmentésre kerül
+- 
+
+Miért jön az a tábla és miből jön 
