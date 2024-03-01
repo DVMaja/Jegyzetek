@@ -1,0 +1,10 @@
+Terminálba beírandó parancsok
+
+npm i -D react-router-dom
+
+npm install axios@0.24.0
+
+npm install react-bootstrap bootstrap
+
+hasznos extension React-hoz
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?pli=1
